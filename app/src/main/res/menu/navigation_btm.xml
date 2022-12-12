@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item android:title="Body"
+        android:icon="@drawable/body_nav"
+        android:id="@+id/body_nav"/>
+    <item android:title="Machines"
+        android:id="@+id/machine_nav"
+        android:icon="@drawable/machines_nav"/>
+    <item android:title="Tracker"
+        android:id="@+id/tracker_nav"
+        android:icon="@drawable/tracker"
+        />
+</menu>

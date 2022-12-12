@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <gym_pro>
+	<Muscle  name="back">
+		<image imageLicenseText="back"       path="back.jpg" />
+			 <Muscle_part name="middle">
+				   <image imageLicenseText="midback" path="midback.jpg"/>
+					  <ExerciseType name="Narrow Grip Seated Row">
+						  <image imageLicenseText="Narrow Grip Seated Row" path="Narrow Grip Seated Row.gif"/>
+						  <info> test test test test 1</info>
+					  </ExerciseType>
+					  <ExerciseType name="Neutral Grip Lat Pull Down">
+						   <image imageLicenseText="Neutral Grip Lat Pull Down" path="Neutral Grip Lat Pull Down.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Reverse-Grip Lat Pull Down">
+							<image imageLicenseText="Reverse-Grip Lat Pull Down" path="Reverse-Grip Lat Pull Down.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+			 <Muscle_part name="upperback">
+			<image imageLicenseText="back"       path="upper1.jpg" />
+			   <ExerciseType name="Bent Over Barbell Row – Underhand Grip">
+				  <image imageLicenseText="Bent Over Barbell Row – Underhand Grip" path="Bent Over Barbell Row – Underhand Grip.gif"/> </ExerciseType>
+			   <ExerciseType name="Bent Over Barbell Row">
+				  <image imageLicenseText="Bent Over Barbell Row" path="Bent Over Barbell Row.gif"/> </ExerciseType>
+			 <ExerciseType name="Bent Over Row With Torsonator">
+				<image imageLicenseText="Bent Over Row With Torsonator" path="Bent Over Row With Torsonator.gif"/> </ExerciseType>
+			 <ExerciseType name="Single Arm Standing Cable Row">
+				<image imageLicenseText="Single Arm Standing Cable Row" path="Single Arm Standing Cable Row.gif"/> </ExerciseType>
+				 </Muscle_part>
+
+	</Muscle >
+	<Muscle name="chest part">
+		<image imageLicenseText="chest part" path="chest1.jpg" />
+				 <Muscle_part name="upper">
+				   <image imageLicenseText="upper" path="Upper_Chest_Blog_Main_Pic.png"/>
+					  <ExerciseType name="incline Barbell Bench Press">
+						  <image imageLicenseText="incline Barbell Bench Press" path="incline Barbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Incline Cable Fly">
+						   <image imageLicenseText="Incline Cable Fly" path="Incline Cable Fly.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Incline Hammer Dumbbell Chest Press">
+							<image imageLicenseText="Incline Hammer Dumbbell Chest Press" path="Incline Hammer Dumbbell Chest Press.gif"/>
+						   <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+				 <Muscle_part name="middle">
+				   <image imageLicenseText="middle" path="middle.jpg"/>
+					  <ExerciseType name="0barbell-bench-press">
+						  <image imageLicenseText="0barbell-bench-press" path="0barbell-bench-press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Dumbbell Flat Bench Press">
+						   <image imageLicenseText="Dumbbell Flat Bench Press" path="Dumbbell Flat Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Machine Lever Chest Fly">
+							<image imageLicenseText="Machine Lever Chest Fly" path="Machine Lever Chest Fly.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+				 <Muscle_part name="lower">
+				   <image imageLicenseText="lower" path=".ower.jpg"/>
+					  <ExerciseType name="Decline-Bench-Press_Chest_360">
+						  <image imageLicenseText="1-Decline-Bench-Press_Chest_360" path="1-Decline-Bench-Press_Chest_360.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Decline Dumbbell Bench Press">
+						   <image imageLicenseText="Decline Dumbbell Bench Press" path="Decline Dumbbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="High Cable Fly">
+							<image imageLicenseText="High Cable Fly" path="High Cable Fly.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+	</Muscle>
+	<Muscle name="core">
+		<image imageLicenseText="core"       path="1.jpg" />
+			   <Muscle_part name="abs">
+				   <image imageLicenseText="abs" path="abs1.jpg"/>
+					  <ExerciseType name="Decline Sit Ups">
+						  <image imageLicenseText="Decline Sit Ups" path="Decline Sit Ups.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Hanging Knee Raises">
+						   <image imageLicenseText="Hanging Knee Raises" path="Hanging Knee Raises.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Incline Hip and Leg Raises">
+							<image imageLicenseText="Incline Hip and Leg Raises" path="Incline Hip and Leg Raises.gif"/>
+						  <info> test test test test</info> </ExerciseType>
+						  <ExerciseType name="Lying Knee Raises">
+						  <image imageLicenseText="Lying Knee Raises" path="Lying Knee Raises.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Seated V Sits">
+						   <image imageLicenseText="Seated V Sits" path="Seated V Sits.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Weighted Hanging Knee Raises">
+							<image imageLicenseText="Weighted Hanging Knee Raises" path="Weighted Hanging Knee Raises.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+			 <Muscle_part name="Obliques">
+				   <image imageLicenseText="abs" path="abs1.jpg"/>
+					  <ExerciseType name="Bent knee lying twist">
+						  <image imageLicenseText="Bent knee lying twist" path="Bent knee lying twist.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Cable Woodchop">
+						   <image imageLicenseText="Cable Woodchop" path="Cable Woodchop.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Reverse Cable Woodchop">
+							<image imageLicenseText="Reverse Cable Woodchop" path="Reverse Cable Woodchop.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Standing Cable Twist">
+						  <image imageLicenseText="Standing Cable Twist" path="Standing Cable Twist.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Seated V Sits">
+						   <image imageLicenseText="Seated V Sits" path="Seated V Sits.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Weighted Lying Twist">
+							<image imageLicenseText="Weighted Lying Twist" path="Weighted Lying Twist.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+	</Muscle>
+	<Muscle name="legs">
+		<image imageLicenseText="legs"       path="legs.jpg"/>
+			<Muscle_part name="lower">
+				   <image imageLicenseText="lower" path="2.jpg"/>
+					  <ExerciseType name="Bent Over Rear Delt Raise">
+						  <image imageLicenseText="Bent Over Rear Delt Raise" path="Bent Over Rear Delt Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Hamstring Curl">
+						   <image imageLicenseText="Machine Rear Delt Fly" path="Machine Rear Delt Fly.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Rear Delt Pull">
+							<image imageLicenseText="Rear Delt Pull" path="Rear Delt Pull.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Seated Bent Over Rear Delt Raise">
+						  <image imageLicenseText="Seated Bent Over Rear Delt Raise" path="Seated Bent Over Rear Delt Raise.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+			 </Muscle_part>
+		   <Muscle_part name="upper">
+				   <image imageLicenseText="upper" path="1.jpg"/>
+					  <ExerciseType name="Barbell Box Squat">
+						  <image imageLicenseText="Barbell Box Squat" path="Barbell Box Squat.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Barbell Sumo Deadlift">
+						   <image imageLicenseText="Barbell Sumo Deadlift" path="Barbell Sumo Deadlift.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Body weight Squat">
+							<image imageLicenseText="Body weight Squat" path="Body weight Squat.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Box Squats">
+						  <image imageLicenseText="Box Squats" path="Box Squats.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Dumbbell Box Squats">
+						   <image imageLicenseText="Dumbbell Box Squats" path="Dumbbell Box Squats.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Goblet Squat (Dumbbell Front Squat)">
+							<image imageLicenseText="Goblet Squat (Dumbbell Front Squat)" path="Goblet Squat (Dumbbell Front Squat).gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+	</Muscle>
+	<Muscle name="Shoulders">
+		   <image imageLicenseText="Shoulders"  path="Shoulders.png"/>
+			 <Muscle_part name="Front delts">
+				   <image imageLicenseText="Front delts" path="big-front-delts-and-shoulders-yt.jpg"/>
+					  <ExerciseType name="Barbell Front Raise">
+						  <image imageLicenseText="Barbell Front Raise" path="Barbell Front Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Close-Grip Barbell Bench Press">
+						   <image imageLicenseText="Close-Grip Barbell Bench Press" path="Close-Grip Barbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Close-Grip Dumbbell Bench Press">
+							<image imageLicenseText="Close-Grip Dumbbell Bench Press" path="Close-Grip Dumbbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Dumbbell Seated Shoulder Press">
+						  <image imageLicenseText="Dumbbell Seated Shoulder Press" path="Dumbbell Seated Shoulder Press.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Incline Close-Grip Barbell Bench Press">
+						   <image imageLicenseText="Incline Close-Grip Barbell Bench Press" path="Incline Close-Grip Barbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+		 <Muscle_part name="Rear delts">
+				   <image imageLicenseText="Rear delts" path="maxresdefault.jpg"/>
+					  <ExerciseType name="Close-Grip Barbell Bench Press">
+						   <image imageLicenseText="Close-Grip Barbell Bench Press" path="Close-Grip Barbell Bench Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Seated Bent Over Rear Delt Raise">
+							<image imageLicenseText="Seated Bent Over Rear Delt Raise" path="Seated Bent Over Rear Delt Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Machine Rear Delt Fly">
+						  <image imageLicenseText="Machine Rear Delt Fly" path="Machine Rear Delt Fly.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Bent Over Rear Delt Raise">
+						   <image imageLicenseText="Bent Over Rear Delt Raise" path="Bent Over Rear Delt Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+				 <Muscle_part name="Side delts">
+				   <image imageLicenseText="Side delts" path="s"/>
+					  <ExerciseType name="Cable Lateral Raise">
+						  <image imageLicenseText="Cable Lateral Raise" path="Cable Lateral Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="Dumbbell Lateral Raise">
+						   <image imageLicenseText="Dumbbell Lateral Raise" path="Dumbbell Lateral Raise.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+					  <ExerciseType name="EZ Bar Upright Row">
+							<image imageLicenseText="EZ Bar Upright Row" path="EZ Bar Upright Row.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+						  <ExerciseType name="Machine Shoulder Press">
+						  <image imageLicenseText="Machine Shoulder Press.gif"/>
+							  <info> test test test test</info>
+						  </ExerciseType>
+					  <ExerciseType name="Standing Barbell Shoulder Press">
+						   <image imageLicenseText="Standing Barbell Shoulder Press" path="Standing Barbell Shoulder Press.gif"/>
+						  <info> test test test test</info>
+					  </ExerciseType>
+			 </Muscle_part>
+	</Muscle>
+ </gym_pro>

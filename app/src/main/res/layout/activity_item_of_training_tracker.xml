@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_gradient_pressed"
+    tools:context=".item_of_training_tracker"
+    android:layout_margin="15dp"
+
+    >
+
+    <TextView
+        android:id="@+id/setTrainingName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="@color/textcolorinitems"
+        android:layout_marginBottom="5dp"
+        android:text="New Sets"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/setNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setTrainingName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="228dp"
+        android:textColor="@color/textcolorinitems"
+        android:layout_toStartOf="@+id/setNumberofsets"
+        android:text="1Exercice"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/setNumberofsets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="39dp"
+        android:textColor="@color/textcolorinitems"
+        android:text="2X2" />
+
+    <TextView
+        android:id="@+id/setNameoftraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="71dp"
+        android:textColor="@color/textcolorinitems"
+        android:text="Arm chest" />
+
+    <Button
+        android:id="@+id/DeleteTrain"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/custom_btn"
+        android:layout_margin="5dp"
+        android:textColor="@color/textcolorinitems"
+
+
+        android:text="X"
+        android:textSize="15dp" />
+    <TextView
+        android:id="@+id/hiddenID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

@@ -44,7 +44,7 @@
 					  </ExerciseType>
 					  <ExerciseType name="Incline Hammer Dumbbell Chest Press">
 							<image imageLicenseText="Incline Hammer Dumbbell Chest Press" path="Incline Hammer Dumbbell Chest Press.gif"/>
-						   <info> test test test test</info>
+						   <info> test test test test test</info>
 					  </ExerciseType>
 			 </Muscle_part>
 				 <Muscle_part name="middle">

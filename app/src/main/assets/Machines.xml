@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machines>
+    <machine name="ARM CURL MACHINE">
+		<image imageLicenseText="ARM CURL MACHINE" path="ARM CURL MACHINE.jpg"/>
+        <info> The biceps curl is an exercise you can do with a weight machine to work the muscle in the front of the upper arm. As the name implies, the biceps curl helps you build strength in the biceps muscle, here in your upper arm.
+        </info>
+    </machine>
+    <machine name="ARM EXTENSION MACHINE">
+	<image imageLicenseText="ARM EXTENSION MACHINE" path="ARM EXTENSION MACHINE.jpg"/>
+        <info>
+            An arm extension machine allows you to focus on your triceps. This machine enables the isolation of your triceps and works on them without any other muscle group taking over as the primary.
+        </info></machine>
+    <machine name="BENCH PRESS"><image imageLicenseText="BENCH PRESS" path="BENCH PRESS.jpg"/>
+        <info>A bench press is an exercise that can be used to strengthen the muscles of the upper body, including the pectorals, arms, and shoulders. Depending on your goals, there are different variations of bench presses that work slightly different muscles, too.
+        </info></machine>
+    <machine name="CHEST FLY MACHINE"> <image imageLicenseText="CHEST FLY MACHINE" path="CHEST FLY MACHINE.jpg"/>
+        <info>The fly machine is ideal for increasing chest strength and muscle mass by targeting the pectoralis muscles. You have two sets of pectoral muscles on each side of the front of your chest: the pectoralis major and the pectoralis minor.
+        </info></machine>
+    <machine name="CHEST PRESS MACHINE"><image imageLicenseText="CHEST PRESS MACHINE" path="CHEST PRESS MACHINE.jpg"/>
+        <info>The Chest Press Machine targets your upper-body. Specifically, it allows you to work on your pectorals, triceps, and deltoid muscles.
+        </info></machine>
+    <machine name="DECLINE BENCH PRESS"><image imageLicenseText="DECLINE BENCH PRESS" path="CDECLINE BENCH PRESS.jpg"/>
+        <info>The purpose of the decline bench press is to work the lower pecs. In addition to lower pecs, this exercise also uses the: triceps brachii in the back side of your upper arm. biceps brachii on the front side of your upper arm.
+        </info></machine> 
+    <machine name="EATED CALF MACHINE"><image imageLicenseText="EATED CALF MACHINE" path="EATED CALF MACHINE.jpg"/>
+        <info>The gastrocnemius is the ball muscle in the calf that gives it the full look, and this is the one that everyone thinks about when referring to the calf. Seated calf raises will work to strengthen this muscle to make it appear larger and stronger.
+        </info></machine>
+    <machine name="FRONT PULL DOWN MACHINE"><image imageLicenseText="FRONT PULL DOWN MACHINE" path="FRONT PULL DOWN MACHINE.jpg"/>
+        <info>The machine front pull-down is a brilliant exercise with which you can build your back and arm muscles and develop your upper-body strength. See also the pull-up, the double cable neutral-grip lat pull-down, and the wide-grip lat pull-down.
+        </info></machine>
+    <machine name="HACK SQUAT MACHINE"><image imageLicenseText="HACK SQUAT MACHINE" path="HACK SQUAT MACHINE.jpg"/>
+        <info>What's the point? A hack squat is great for building strength in the legs, especially if you're a beginner to the squat. The angled machine has you in a standing position, safely supporting the weight while you rely on your legs to drive the movement.
+        </info></machine>
+    <machine name="INCLINE BENCH PRESS"><image imageLicenseText="INCLINE BENCH PRESS" path="INCLINE BENCH PRESS.jpg"/>
+        <info>The purpose of the incline press is to focus more of the work on the upper pecs. The main benefit in performing incline presses is to develop the upper portion of the pectoral muscles. When the bench is set at an incline (15 to 30 degrees), you activate your shoulders more since it's comparable to a shoulder press.
+        </info></machine>
+    <machine name="LAT PULL DOWN MACHINE"><image imageLicenseText="LAT PULL DOWN MACHINE" path="LAT PULL DOWN MACHINE.jpg"/>
+        <info>Fitness. Dr. Laskowski: The lat pull-down is an exercise you can do with a weight machine to work the muscles on the sides of your chest wall and upper back. Done properly, the lat pull-down targets the latissimus dorsi, a muscle on the outer side of the chest wall.
+        </info></machine>
+    <machine name="LATERAL RAISES MACHINE"> <image imageLicenseText="LATERAL RAISES MACHINE" path="LATERAL RAISES MACHINE.jpg"/>
+        <info>This machine allows you to specifically target your deltoids. It primarily focuses on the lateral head but also allows you to engage the anterior and rear delts. However, the main benefit is that this machine lets you isolate your shoulders and only work those muscles.
+        </info></machine>
+    <machine name="LEG ABDUCTION MACHINE"> <image imageLicenseText="LEG ABDUCTION MACHINE" path="LEG ABDUCTION MACHINE.jpg"/>
+        <info>It makes you push out your legs against the pads with resistance provided by the weights and helps in targeting all the small muscles involved in hip abduction- the tensor fasciae latae as well as three more glute muscles that are the gluteus medius, minimus and maximus.
+        </info></machine>
+    <machine name="LEG CURL MACHINE">  <image imageLicenseText="LEG CURL MACHINE" path="LEG CURL MACHINE.jpg"/>
+        <info>The seated leg curl machine helps to isolate the hamstrings, which can contribute to mass and strength in the lower body. This leg workout can be beneficial for anyone of any fitness level.
+        </info></machine>
+    <machine name="LEG EXTENSION MACHINE"> <image imageLicenseText="LEG EXTENSION MACHINE" path="LEG EXTENSION MACHINE.jpg"/>
+        <info>the leg extension, or knee extension, is a type of strength training exercise. It's an excellent move for strengthening your quadriceps, which are in the front of your upper legs. Leg extensions are done on a leg extension machine. You sit on the machine with a weighted pad on top of your lower legs.
+        </info></machine>
+    <machine name="OVERHEAD PRESS MACHINE"><image imageLicenseText="OVERHEAD PRESS MACHINE" path="OVERHEAD PRESS MACHINE.jpg"/>
+        <info>Muscles Worked. The machine shoulder press primarily activates the deltoid muscles of the shoulder. As secondary and mover muscles, this exercise engages the pecs, triceps, and middle back muscles. The shoulder press machine is an excellent exercise for building bulky shoulders.
+        </info></machine>
+    <machine name="PREACHER CURL BENCH (BICEP CURL BENCH)"><image imageLicenseText="PREACHER CURL BENCH (BICEP CURL BENCH)" path="PREACHER CURL BENCH (BICEP CURL BENCH).jpg"/>
+        <info>These benches are great training aids for your arm and bicep exercises. The cushioned pad gives you support when performing bicep curls and similar exercises, and the barbell rests offer the ability to set down your weights bar between sets.
+        </info></machine>
+    <machine name="ROTARY TORSO MACHINE"><image imageLicenseText="ROTARY TORSO MACHINE" path="ROTARY TORSO MACHINE.jpg"/>
+        <info>Using the rotary torso machine will strengthen and tone your oblique muscles, but it will not specifically burn fat off the area you are working. Additionally, stronger abdominal and back muscles take more pressure off the spine.
+        </info></machine>
+    <machine name="SEATED DIP MACHINE"> <image imageLicenseText="SEATED DIP MACHINE" path="SEATED DIP MACHINE.jpg"/>
+        <info>the Seated Dip Tricep Press machine targets the triceps first, but also stretches and strengthens the chest and shoulders. Dips can be performed for low reps for strength or higher reps for muscle growth. One of the many advantages of the dip machine is the fact that you don't need to worry about balance.
+        </info></machine>
+    <machine name="SHOULDER PRESS MACHINE"><image imageLicenseText="SHOULDER PRESS MACHINE" path="SHOULDER PRESS MACHINE.jpg"/>
+        <info>Muscles Worked. The machine shoulder press primarily activates the deltoid muscles of the shoulder. As secondary and mover muscles, this exercise engages the pecs, triceps, and middle back muscles. The shoulder press machine is an excellent exercise for building bulky shoulders.
+        </info></machine>
+    <machine name="SPIN BIKE (INDOOR EXERCISE BIKE)"><image imageLicenseText="SPIN BIKE (INDOOR EXERCISE BIKE)" path="SPIN BIKE (INDOOR EXERCISE BIKE).jpg"/>
+        <info>spin bikes are perfect for intensive workouts as you can easily adjust your resistance and stand up as you push harder. Spin bikes help to lose weight and build muscle, as you stand and cycle you will target your calves, while also working out your shoulders, arms, back, and core.
+        </info></machine>
+    <machine name="TREADMILL">  <image imageLicenseText="TREADMILL" path="TREADMILL.jpg"/>
+        <info>Treadmills are mostly used for cardio training. However, this fitness machine can be used for more boosting your cardiovascular health. It's ideal for strengthening your muscles, including glutes, thighs, and calves. With treadmill workouts, you can always optimize the sessions to suit your goals.
+        </info></machine>
+    <machine name="TRICEP EXTENSION MACHINE"><image imageLicenseText="TRICEP EXTENSION MACHINE" path="TRICEP EXTENSION MACHINE.jpg"/>
+        <info>As the name implies, the triceps extension targets the triceps muscle, located here in the back of the upper arm. Properly done, the triceps extension helps strengthen and tone the back of your upper arm. If you use a cable system, you can also work your core muscles and improve your stability.
+        </info></machine>
+    <machine name="TRICEPS PRESS MACHINE"> <image imageLicenseText="TRICEPS PRESS MACHINE" path="TRICEPS PRESS MACHINE.jpg"/>
+        <info>The triceps press machine is a simple device that can help you build and strengthen the muscles in your triceps. It's typically used to perform single-arm exercises, but it can also be used by both arms at once.
+        </info></machine>
+    
+</machines>

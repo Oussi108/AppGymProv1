@@ -7,14 +7,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <color name="backgroundfragment">#525252</color>
     <color name="backgroundfragment1">#414141</color>
     <color name="backgroundfragment2">#313131</color>
     <color name="textcolorinitems" >#FF000000</color>
     <color name="menu_nave">#EC625F</color>
     <color name="colorPrimary">#EFFFFD</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#00a5ff</color>
     <color name="colorPrimaryDark">#EFFFFD</color>
     <color name="colorAccent">#EFFFFD</color>
+
+
+
+
+    <color name="black_overlay">#66000000</color>
+    <color name="purple_trans">#66872C76</color>
+    <color name="yellow">#FFF895</color>
+    <color name="txt_hint">#33FFFFFF</color>
 
     <color name="list_color_1">#b3e1ee</color>
     <color name="list_color_1a">#6ac6dd</color>

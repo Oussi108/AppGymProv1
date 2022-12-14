@@ -8,17 +8,18 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import java.util.ArrayList;
 import java.util.zip.Inflater;
 
 public class BodyAdapter extends BaseAdapter {
-      int[] idpic;
+      ArrayList<Integer> idpic;
     private  Context ctx;
     private LayoutInflater inf ;
     @Override
     public int getCount() {
-        return idpic.length;
+        return idpic.size();
     }
-    public BodyAdapter(Context cn, int[] Idpic){
+    public BodyAdapter(Context cn, ArrayList<Integer> Idpic){
         this.idpic =Idpic;
         this.ctx = cn;
         this.inf = LayoutInflater.from(cn);
@@ -26,7 +27,7 @@ public class BodyAdapter extends BaseAdapter {
 
     @Override
     public Object getItem(int i) {
-        return idpic[i];
+        return idpic.get(i);
     }
 
     @Override
@@ -38,7 +39,7 @@ public class BodyAdapter extends BaseAdapter {
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = inf.inflate(R.layout.activity_body_item,null);
         ImageView ib = view.findViewById(R.id.Bodyimagebutton);
-        ib.setBackground(view.getResources().getDrawable(idpic[i],null));
+        ib.setBackground(view.getResources().getDrawable(idpic.get(i),null));
 
 
         return view;

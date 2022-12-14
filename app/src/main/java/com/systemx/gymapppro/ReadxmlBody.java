@@ -25,6 +25,7 @@ public class ReadxmlBody {
     public  void XmlReader( Context c)  {
         XmlPullParserFactory parseft ;
 
+
         try {
             parseft = XmlPullParserFactory.newInstance();
             XmlPullParser parse = parseft.newPullParser();
@@ -33,6 +34,7 @@ public class ReadxmlBody {
             parse.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);
             parse.setInput(in,null);
             db =  ParseXml(parse);
+            in.close();
 
         } catch (XmlPullParserException e) {
 

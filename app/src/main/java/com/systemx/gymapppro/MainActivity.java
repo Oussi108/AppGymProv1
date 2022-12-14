@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationMenuView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -14,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView Bmenu ;
     BodyFragment bf = new BodyFragment();
-    MachineFragment mf = new MachineFragment();
+    SetAlarmFragment mf = new SetAlarmFragment();
     TrackerFragment tf = new TrackerFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {

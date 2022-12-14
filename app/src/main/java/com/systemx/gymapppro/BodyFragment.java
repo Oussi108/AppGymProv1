@@ -1,6 +1,9 @@
 package com.systemx.gymapppro;
 
+
+
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -26,6 +29,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -89,22 +93,39 @@ public class BodyFragment extends Fragment {
     ArrayList<Muscle> db ;
     TextView tv ;
 
+
     @Override
 
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
         super.onViewCreated(view, savedInstanceState);
         LS = view.findViewById(R.id.ListviewBody);
-        int[] d = {R.drawable.gymloading,R.drawable.gymloading};
+        XmlReader(view);
+        ArrayList<Integer> d =new ArrayList<>() ;
+        for (Muscle a:db) {
+            if(a.imagePath != null){
+               int p =  getResources().getIdentifier(a.getImagePathName(),"drawable",getActivity().getPackageName());
+            if (p!= 0){
+                d.add(p);
+            }
+            }
+
+        }
+
+
+
+
+
+        tv = view.findViewById(R.id.testet);
+
+
+        tv.setText(String.valueOf(db.get(0).Muscle_parts.get(0).Exercises.get(0).imagePath));
         BodyAdapter ba = new BodyAdapter(view.getContext(),d);
         LS.setAdapter(ba);
-        tv = view.findViewById(R.id.testet);
-        XmlReader(view);
-        tv.setText(String.valueOf(db.get(0).Muscle_parts.get(0).Exercises.get(0).Info));
-
 
 
 
     }
+
 
     ////////////
     public void XmlReader(View v)  {
@@ -121,6 +142,7 @@ public class BodyFragment extends Fragment {
             parse.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);
             parse.setInput(in,null);
             db =  ParseXml(parse,v);
+            in.close();
 
         } catch (XmlPullParserException e) {
 
@@ -161,9 +183,9 @@ public class BodyFragment extends Fragment {
 
 
                     }else if(mus != null){
-                        if("image".equals(elmName)){
+                        if("image_Muscle".equals(elmName)){
                             mus.imagePath = p.getAttributeValue(null,"path");
-                            p.next();
+
                         }else if("Muscle_part".equals(elmName)){
                              mp = new Muscle_part();
                              mus.Muscle_parts.add(mp);
@@ -171,7 +193,7 @@ public class BodyFragment extends Fragment {
 
 
                         }else if(mp != null){
-                            if ("image".equals(elmName)){
+                            if ("imagep".equals(elmName)){
                                mp.imagePath = p.getAttributeValue(null,"path");
 
 

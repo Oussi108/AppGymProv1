@@ -1,253 +1,525 @@
 <?xml version="1.0" encoding="UTF-8" ?>
  <gym_pro>
-	<Muscle  name="back">
-		<image imageLicenseText="back"       path="back.jpg" />
+	<Muscle name="back">
+		<image_Muscle imageLicenseText="back"       path="back.jpg" />
 			 <Muscle_part name="middle">
-				   <image imageLicenseText="midback" path="midback.jpg"/>
-					  <ExerciseType name="Narrow Grip Seated Row">
-						  <image imageLicenseText="Narrow Grip Seated Row" path="Narrow Grip Seated Row.gif"/>
-						  <info> test test test test 1</info>
+				   <imagep imageLicenseText="midback" path="midback.jpg"/>
+			 	<ExerciseType name="narrow_grip_seated_row">
+			 		<image imageLicenseText="narrow_grip_seated_row" path="narrow_grip_seated_row.gif"/>
+					  	<info> Narrow Grip Seated Row
+					  		Primary muscle group(s)
+					  		Lats, Middle  Upper Back, Rear Delts, Biceps
+					  		
+					  		Sit on the seated row seat with your feet on the foot plates. Reach forward and grasp the V shape handle. With your back straight pull the cable into your mid torso area and squeeze your shoulder blades together and then extend your arms back to the starting position. Don’t sway backwards and forwards.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Neutral Grip Lat Pull Down">
-						   <image imageLicenseText="Neutral Grip Lat Pull Down" path="Neutral Grip Lat Pull Down.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="neutral_grip_lat_pulldown">
+			 		<image imageLicenseText="neutral_grip_lat_pulldown" path="neutral_grip_lat_pulldown.gif"/>
+					  	<info> Neutral Grip Lat Pull Down
+					  		Primary muscle group(s):
+					  		Lats, Middle  Upper Back, Rear Delts, Biceps
+					  		
+					  		Using a narrow and underhand grip, grip the bar shoulder width, sit on the seat facing the lat pull down machine. Keep your feet flat and planted firmly on the floor and legs under the leg guard. Using an underhand grip, hold the bar shoulder width. Keeping your back straight, pull the bar towards the top of your chest using your shoulders while arcing your elbows into the sides of your body. Squeeze your shoulder blades together as you’re pulling the bar down. Return to the start by controlling the bar back up.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Reverse-Grip Lat Pull Down">
-							<image imageLicenseText="Reverse-Grip Lat Pull Down" path="Reverse-Grip Lat Pull Down.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="reverse_grip_lat_pulldown">
+			 		<image imageLicenseText="reverse_grip_lat_pulldown." path="reverse_grip_lat_pulldown..gif"/>
+					  	<info>Reverse-Grip Lat Pull Down
+					  		Primary muscle group(s):
+					  		Lats, Middle  Upper Back, Rear Delts, Biceps
+					  		
+					  		Using a narrow and underhand grip, grip the bar shoulder width, sit on the seat facing the lat pull down machine. Keep your feet flat and planted firmly on the floor and legs under the leg guard. Using an underhand grip, hold the bar shoulder width. Keeping your back straight, pull the bar towards the top of your chest using your shoulders while arcing your elbows into the sides of your body. Squeeze your shoulder blades together as you’re pulling the bar down. Return to the start by controlling the bar back up.</info>
 					  </ExerciseType>
+			 	<ExerciseType name="wide_grip_lat_pulldown">
+			 		<image imageLicenseText="wide_grip_lat_pulldown." path="wide_grip_lat_pulldown.gif"/>
+			 		<info>Wide-Grip Lat Pull Down
+			 			Primary muscle group(s)
+			 			Lats, Middle , Upper Back, Rear Delts, Biceps
+			 			
+			 			Using a wide grip bar sit on the seat facing the lat pull down machine. Keep your feet flat and planted firmly on the floor and legs under the leg guard. Using an overhand grip, hold the bar as wider than shoulder width. (Your hands should be about 1 12 times body width apart.) Keeping your back straight, pull the bar towards the top of your chest using your shoulders while arcing your elbows into the sides of your body. At the end of the movement squeeze your shoulders together slightly and hold for a count of one. Return to the start position by controlling with bar back up.
+			 		</info>
+			 		
+			 	</ExerciseType>
 			 </Muscle_part>
 			 <Muscle_part name="upperback">
-			<image imageLicenseText="back"       path="upper1.jpg" />
-			   <ExerciseType name="Bent Over Barbell Row – Underhand Grip">
-				  <image imageLicenseText="Bent Over Barbell Row – Underhand Grip" path="Bent Over Barbell Row – Underhand Grip.gif"/> </ExerciseType>
-			   <ExerciseType name="Bent Over Barbell Row">
-				  <image imageLicenseText="Bent Over Barbell Row" path="Bent Over Barbell Row.gif"/> </ExerciseType>
-			 <ExerciseType name="Bent Over Row With Torsonator">
-				<image imageLicenseText="Bent Over Row With Torsonator" path="Bent Over Row With Torsonator.gif"/> </ExerciseType>
-			 <ExerciseType name="Single Arm Standing Cable Row">
-				<image imageLicenseText="Single Arm Standing Cable Row" path="Single Arm Standing Cable Row.gif"/> </ExerciseType>
-				 </Muscle_part>
+			 	<imagep imageLicenseText="back"       path="upperb.jpg" />
+			 	<ExerciseType name="bent_over_barbell _row_underhand_grip">
+			 		<image imageLicenseText="bent_over_barbell _row_underhand_grip" path="bent_over_barbell _row_underhand_grip.gif"/> 
+			   	<info>Bent Over Barbell Row – Underhand Grip
+			   		Primary muscle group(s)
+			   		Upper Back, Rear Delts, Biceps.
+			   		
+			   		Warning If you suffer from lower back problems, this exercise is not recommended.
+			   		
+			   		Always keep your back straight and core activated throughout this exercise.
+			   		
+			   		Set up a barbell on the floor or rack and stand facing it with your legs slightly wider than shoulder width apart and your knees slightly bent. Bend forward at your waist and grip the barbell with an underhand grip. Keep your back straight at a 45 degree angle. Keep your head and neck straight. This is the start position. Without moving your torso, exhale and lift the barbell up to the crease in your hip. Keep your elbows close in to your body and squeeze your back muscles.</info>
+			   </ExerciseType>
+			 	<ExerciseType name="bent_over_barbell_row">
+			 		<image imageLicenseText="bent_over_barbell_row" path="bent_over_barbell_row.gif"/> 
+			   	<info>Bent Over Barbell Row
+			   		Primary muscle group(s):
+			   		Lats, Rear Delts, Upper Back, Biceps
+			   		
+			   		Warning: If you suffer from lower back problems, this exercise is not recommended.
+			   		
+			   		Always keep your back straight and core activated throughout this exercise.
+			   		
+			   		Set up a barbell on the floor or rack and stand facing it with your legs slightly wider than shoulder width apart and your knees slightly bent. Bend forward at your waist and grip the barbell with an underhand grip. Keep your back straight at a 45 degree angle. Keep your head and neck straight. This is the start position. Without moving your torso, exhale and lift the barbell up to the crease in your hip. Keep your elbows close in to your body and squeeze your back muscles.
+			   	</info>
+			   </ExerciseType>
+			 	<ExerciseType name="bent_over_row_with_torsonator">
+			 		<image imageLicenseText="bent_over_row_with_torsonator" path="bent_over_row_with_torsonator.gif"/>
+			 	<info>Bent Over Row With Torsonator
+			 		Primary muscle group(s)
+			 		Lats, Upper Back, Rear Delts, Biceps
+			 		
+			 		Avoid this exercise if you have lower back pain or lower back injuries.
+			 		
+			 		Insert an Olympic Bar into a Torsonator or Landmine sleeve or place the bar into a wall corner. Use a cable V grip or you can grip the bar with your hands.
+			 		
+			 		Straddle the bar with your knees slightly bent. Bend forward at the waist until your torso is at a 45 degreee angle. Grip the bar close to the weight plates with both hands, using a neutral grip. One hand in front the other. Keeping your back straight and exhaling, pull the bar straight up by bending your elbows until the plates touch your chest. Hold and squeeze your back muscles. Return to the start position in a slow smooth movement to place emphasis on your lats. Inhale as you do so. Keep the bar from touching the floor. Pause then repeat.
+			 	</info>
+			 </ExerciseType>
+			 	<ExerciseType name="single_arm_standing_cable_row">
+			 		<image imageLicenseText="single_arm_standing_cable_row" path="single_arm_standing_cable_row.gif"/>
+			 	<info>Single Arm Standing Cable Row
+			 		Primary muscle group(s)
+			 		Lats, Upper Back, Rear Delts, Biceps
+			 		
+			 		Adjust a cable pulley to the bottom level. Grab the handle with one hand. In a bent over position with a tight core, pull the handle to your stomach level, squeezing your shoulder blade into the middle of your spine as you’re pulling the cable in. Hold the contraction in your back and slowly return the cable to the starting position. Repeat.
+			 	</info>
+			 </ExerciseType>
+			 	<ExerciseType name="bent_over_dumbbell_row">
+			 		<image imageLicenseText="bent_over_dumbbell_row." path="bent_over_dumbbell_row.gif"/>
+			 		<info>Bent Over Dumbbell Row
+			 			Primary muscle group(s)
+			 			Lats, Upper Back, Rear Delts, Biceps
+			 			
+			 			Holding a dumbbell in each hand bend at the waist to approximately a 45 degree angle with the palms of your hands facing each other. Have a slight bend in your knees. Row both dumbbells up to hip level squeezing your shoulder blades together. Return to the starting position.
+			 		</info>
+			 	</ExerciseType>
+			 </Muscle_part>
 
-	</Muscle >
+	</Muscle>
 	<Muscle name="chest part">
-		<image imageLicenseText="chest part" path="chest1.jpg" />
+		<image_Muscle imageLicenseText="chest_part" path="chest_part.jpg" />
 				 <Muscle_part name="upper">
-				   <image imageLicenseText="upper" path="Upper_Chest_Blog_Main_Pic.png"/>
-					  <ExerciseType name="incline Barbell Bench Press">
-						  <image imageLicenseText="incline Barbell Bench Press" path="incline Barbell Bench Press.gif"/>
-						  <info> test test test test</info>
+				   <imagep imageLicenseText="upper" path="Upper_Chest_Blog_Main_Pic.png"/>
+				 	<ExerciseType name="incline_barbell_bench_press">
+				 		<image imageLicenseText="incline_barbell_bench_press" path="incline_barbell_bench_press.gif"/>
+					  	<info>Incline Barbell Bench Press
+					  		Primary muscle group(s):
+					  		Chest, Shoulders, Triceps
+					  		
+					  		Warning: If you are new at this exercise, you should use a spotter. If there is no-one available to spot for you, be conservative with the amount of weight you use. You can also supplement this exercise with the Smith Machine.
+					  		
+					  		Lying on an incline bench place your hands up on the bar griping it slightly wider than shoulder width apart. Place your feet on the ground in line with or behind your knees. Create an arch in your lower back and push your chest up. Lift the bar up off the rack so that the bar is above your chest. Lower the bar directly down to the chest with your elbow pointing at approximately 45 degrees. Once the bar touches the chest, pause, and then press directly up again. Continue until all reps are completed and then re-rack the barbell.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Incline Cable Fly">
-						   <image imageLicenseText="Incline Cable Fly" path="Incline Cable Fly.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="incline_cable_fly">
+				 		<image imageLicenseText="incline_cable_fly" path="incline_cable_fly.gif"/>
+					  	<info> Incline Cable Fly
+					  		Primary muscle group(s):
+					  		Chest
+					  		
+					  		You will need two cable machines for this exercise plus an incline bench. Set the cable pulley at the bottom setting. Lie on the bench and hold the handles with an inverted (palms facing each other) grip out in front of you. With your arms stretched out in front of your chest bring your arms back and bend your elbows so that you are making a large half circle with your hands. Bring your hands back to chest level then press the cables out again in front of you.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Incline Hammer Dumbbell Chest Press">
-							<image imageLicenseText="Incline Hammer Dumbbell Chest Press" path="Incline Hammer Dumbbell Chest Press.gif"/>
-						   <info> test test test test</info>
+				 	<ExerciseType name="incline_hammer _dumbbell_press">
+				 		<image imageLicenseText="incline_hammer _dumbbell_press" path="incline_hammer _dumbbell_press.gif"/>
+					  	<info>Incline Hammer Dumbbell Chest Press
+					  		Primary muscle group(s):
+					  		Chest
+					  		
+					  		Lie on an incline bench holding a dumbbell in each hand with an inverted grip holding the dumbbells straight above your chest. Your palms should be facing each other. Place your feet on the ground in line with or behind your knees. Create an arch in your lower back and push your chest up. Slowly lower the dumbbells out and down to chest level in a half circle formation with a bend in your elbows. Lower the dumbbells to chest level. You should feel a stretch across your chest.
+					  		
+					  		As you push the dumbbells up, move your arms in an arc to bring the dumbbells together, until they meet over the centre of your chest.
+					  	</info>
 					  </ExerciseType>
 			 </Muscle_part>
 				 <Muscle_part name="middle">
-				   <image imageLicenseText="middle" path="middle.jpg"/>
-					  <ExerciseType name="0barbell-bench-press">
-						  <image imageLicenseText="0barbell-bench-press" path="0barbell-bench-press.gif"/>
-						  <info> test test test test</info>
+				   <imagep imageLicenseText="middle" path="middle.jpg"/>
+				 	<ExerciseType name="barbell_bench_press">
+				 		<image imageLicenseText="barbell_bench_press" path="barbell_bench_press.gif"/>
+					  	<info> Barbell Bench Press
+					  		Primary muscle group(s):
+					  		Chest, Shoulders, Triceps
+					  		
+					  		Lying on a flat bench place your hands up on the bar griping it slightly wider than shoulder width apart. Place your feet on the ground in line with or behind your knees. Create an arch in your lower back and push your chest up. Lift the bar up off the rack so that the bar is above your chest. Lower the bar directly down to the chest with your elbow pointing at approximately 45 degrees. Once the bar touches the chest, pause, and then press directly up again. Continue until all reps are completed and then re-rack the barbell.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Dumbbell Flat Bench Press">
-						   <image imageLicenseText="Dumbbell Flat Bench Press" path="Dumbbell Flat Bench Press.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="dumbbell_flat_bench_press">
+				 		<image imageLicenseText="dumbbell_flat_bench_press" path="dumbbell_flat_bench_press.gif"/>
+					  	<info> Dumbbell Flat Bench Press
+					  		Primary muscle group(s):
+					  		Chest, Shoulders, Triceps
+					  		
+					  		Lie on a flat bench holding a dumbbell in each hand with an overhand grip holding the dumbbells straight above your chest. Place your feet on the ground in line with or behind your knees. Create an arch in your lower back and push your chest up. Your palms should be facing forward. Slowly lower the umbbells out and down to chest level with your elbow pointing at a 45 degree angle.
+					  		
+					  		As you push the weights up, move your arms in an arc to bring the dumbbells together, until they meet over the centre of your chest.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Machine Lever Chest Fly">
-							<image imageLicenseText="Machine Lever Chest Fly" path="Machine Lever Chest Fly.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="machine_lever_chest_fly">
+				 		<image imageLicenseText="machine_lever_chest_fly" path="machine_lever_chest_fly.gif"/>
+					  	<info> Machine Lever Chest Fly
+					  		Primary muscle group(s):
+					  		Chest
+					  		
+					  		Sit on a chest fly machine with your back flat against the back rest and your feet on the floor. Grip the handles and make sure your arms are parallel to the floor. If not parallel, adjust the seat or handles accordingly. This is the start position. Exhale and slowly push the handles together squeezing your chest to the middle as you do so. Hold for a count of one. Return to the starting position.
+					  		t</info>
 					  </ExerciseType>
 			 </Muscle_part>
 				 <Muscle_part name="lower">
-				   <image imageLicenseText="lower" path=".ower.jpg"/>
-					  <ExerciseType name="Decline-Bench-Press_Chest_360">
-						  <image imageLicenseText="1-Decline-Bench-Press_Chest_360" path="1-Decline-Bench-Press_Chest_360.gif"/>
-						  <info> test test test test</info>
+				   <imagep imageLicenseText="lower" path="lower.jpg"/>
+				 	<ExerciseType name="decline_bench_press_chest_360">
+				 		<image imageLicenseText="decline_bench_press_chest_360" path="decline_bench_press_chest_360.gif"/>
+					  	<info> Decline Barbell Bench Press
+					  		Primary muscle group(s):
+					  		Chest, Shoulders, Triceps
+					  		
+					  		Warning: If you are new at this exercise, you should use a spotter. If no spotter is available, then be conservative with the amount of weight used.
+					  		
+					  		Do not let the bar drift too far forward; it should touch down your lower chest only. Don’t bounce the weight off your chest. Keep full control of the barbell at all times.
+					  		
+					  		Set a barbell in a weight rack at the low end of a decline bench, making sure it is at a height you can reach without fully extending your arms. Secure your feet under the stirrup, bar or strap at the high end of the bench and lie flat on your back with the rack slightly behind you.
+					  		
+					  		Lying on the bench place your hands up on the bar griping it slightly wider than shoulder width apart. Place your legs under the leg support. Create an arch in your lower back and push your chest up. Lift the bar up off the rack so that the bar is above your chest. Lower the bar directly down to the chest with your elbow pointing at approximately 45 degrees. Once the bar touches the chest, pause, and then press directly up again, exhaling your breath. Continue until all reps are completed and then re-rack the barbell.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Decline Dumbbell Bench Press">
-						   <image imageLicenseText="Decline Dumbbell Bench Press" path="Decline Dumbbell Bench Press.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="decline_dumbbell_bench_press">
+				 		<image imageLicenseText="decline_dumbbell_bench_press" path="decline_dumbbell_bench_press.gif"/>
+					  	<info> Decline Dumbbell Bench Press
+					  		Primary muscle group(s):
+					  		Chest, Shoulders, Triceps
+					  		
+					  		Lie on a decline bench holding a dumbbell in each hand with an overhand grip holding the dumbbells straight above your chest. Place your under the leg rest. Create an arch in your lower back and push your chest up. Your palms should be facing forward. Slowly lower the dumbbells out and down to chest level with your elbow pointing at a 45 degree angle.
+					  		
+					  		As you push the weights up, move your arms in an arc to bring the dumbbells together, until they meet over the centre of your chest.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="High Cable Fly">
-							<image imageLicenseText="High Cable Fly" path="High Cable Fly.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="high_cable_flye">
+				 		<image imageLicenseText="high_cable_flye" path="high_cable_flye.gif"/>
+					  	<info> High Cable Fly
+					  		Primary muscle group(s):
+					  		Chest
+					  		
+					  		You will need two cable machines for this exercise. Set the cable pulley above shoulder height. Grip both handles and push the cable out in front of your. Take one step forward. With your arms stretched out in front of your chest bring your arms back and bend your elbows so that you are making a large half circle with your hands. Bring your hands back to chest level then press the cables out again in front of you.
+					  	</info>
 					  </ExerciseType>
 			 </Muscle_part>
 	</Muscle>
 	<Muscle name="core">
-		<image imageLicenseText="core"       path="1.jpg" />
+		<image_Muscle imageLicenseText="core"       path="jnab.jpg" />
 			   <Muscle_part name="abs">
-				   <image imageLicenseText="abs" path="abs1.jpg"/>
-					  <ExerciseType name="Decline Sit Ups">
-						  <image imageLicenseText="Decline Sit Ups" path="Decline Sit Ups.gif"/>
-						  <info> test test test test</info>
+				   <imagep imageLicenseText="abs" path="abs.jpg"/>
+			   	<ExerciseType name="decline_sit_ups">
+			   		<image imageLicenseText="decline_sit_ups" path="decline_sit_ups.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Abs, Obliques
+					  		
+					  		Lying on a decline bench with your feet under the foot holds. Place your hands by your temples or behind your head. Use your abs to pull your upper body up into a vertical position and then return to the starting position.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Hanging Knee Raises">
-						   <image imageLicenseText="Hanging Knee Raises" path="Hanging Knee Raises.gif"/>
-						  <info> test test test test</info>
+			   	<ExerciseType name="hanging_knee_raises">
+			   		<image imageLicenseText="hanging_knee_raises" path="hanging_knee_raises.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Obliques , Abs
+					  		
+					  		Hold on to a chin up bar with an overhand grip with your legs straight. Brace your core. Bend your knees and raise your knees up to chest height and return to the starting position. Avoid swinging your body.
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Incline Hip and Leg Raises">
-							<image imageLicenseText="Incline Hip and Leg Raises" path="Incline Hip and Leg Raises.gif"/>
-						  <info> test test test test</info> </ExerciseType>
-						  <ExerciseType name="Lying Knee Raises">
-						  <image imageLicenseText="Lying Knee Raises" path="Lying Knee Raises.gif"/>
-							  <info> test test test test</info>
+			   	<ExerciseType name="incline_hip_and_leg_raises">
+			   		<image imageLicenseText="incline_hip_and_leg_raises" path="incline_hip_and_leg_raises.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Obliques , Abs
+					  		
+					  		Lying on a decline bench, hold onto the top end of the bench with your hands to keep you steady. Keeping your legs straight, raise your legs to a vertical position and then push your feet up towards the ceiling. Return to the starting position.
+					  	</info> 
+					  </ExerciseType>
+			   	<ExerciseType name="lying_knee_raises">
+			   		<image imageLicenseText="lying_knee_raises" path="lying_knee_raises.gif"/>
+						  	<info> Primary muscle group(s):
+						  		Obliques , Abs
+						  		
+						  		Lying oh your back with either your arms by your side or hands under your glutes. Place your knees and feet together. Brace your abs and raise your knees up to your chest. Extend your legs as low as you can without touching the floor and repeat.</info>
 						  </ExerciseType>
-					  <ExerciseType name="Seated V Sits">
-						   <image imageLicenseText="Seated V Sits" path="Seated V Sits.gif"/>
-						  <info> test test test test</info>
+			   	<ExerciseType name="seated_sits">
+			   		<image imageLicenseText="seated_sits" path="seated_sits.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Obliques , Abs
+					  		
+					  		Sitting on a bench with your legs over the end. Hold onto either side of the bench. With your back straight, brace your abs bring your knees up to your chest then extend your legs out as far as you can.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Weighted Hanging Knee Raises">
-							<image imageLicenseText="Weighted Hanging Knee Raises" path="Weighted Hanging Knee Raises.gif"/>
-						  <info> test test test test</info>
+			   	<ExerciseType name="weighted_hanging _knee_raises">
+			   		<image imageLicenseText="weighted_hanging _knee_raises" path="weighted_hanging _knee_raises.gif"/>
+					  	<info>Primary muscle group(s):
+					  		Obliques , Abs
+					  		
+					  		Hold on to a chin up bar with an overhand grip with your legs straight. Brace your core. Hold a dumbbell or medicine ball between your feet. Bend your knees and raise your knees up to chest height and return to the starting position. Avoid swinging your body.</info>
 					  </ExerciseType>
 			 </Muscle_part>
 			 <Muscle_part name="Obliques">
-				   <image imageLicenseText="abs" path="abs1.jpg"/>
-					  <ExerciseType name="Bent knee lying twist">
-						  <image imageLicenseText="Bent knee lying twist" path="Bent knee lying twist.gif"/>
-						  <info> test test test test</info>
+			 	<imagep imageLicenseText="Obliques" path="obl.jpg"/>
+			 	<ExerciseType name="Bent_knee_lying_twist">
+			 		<image imageLicenseText="Bent_knee_lying_twist" path="Bent_knee_lying_twist.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Obliques
+					  		
+					  		Lying on your back with your arms out to your side, raise your knees keeping your feet and knees together. Brace your core and role to one side lowering your knees as close to the floor as possible. Return to the starting position and roll to the other side. Keep your shoulders flat on the floor.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Cable Woodchop">
-						   <image imageLicenseText="Cable Woodchop" path="Cable Woodchop.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="cable_woodcho">
+			 		<image imageLicenseText="cable_woodcho" path="cable_woodcho.gif"/>
+					  	<info>Primary muscle group(s):
+					  		Obliques
+					  		
+					  		Using a cable machine, raise the pulley to the highest setting. Stand side on to the cable machine and hold the handle with both hands. Keeping your arms straight and abs braced pull the cable down and across your body rotating at the same time. Return to the starting position.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Reverse Cable Woodchop">
-							<image imageLicenseText="Reverse Cable Woodchop" path="Reverse Cable Woodchop.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="reverse_cable_woodchop">
+			 		<image imageLicenseText="reverse_cable_woodchop" path="reverse_cable_woodchop.gif"/>
+					  	<info>Primary muscle group(s):
+					  		Obliques
+					  		
+					  		Using a cable machine, lower the pulley to the lowest setting. Stand side on to the cable machine and hold the handle with both hands. Keeping your arms straight and abs braced pull the cable up and across your body rotating at the same time. Return to the starting position.</info>
 					  </ExerciseType>
-						  <ExerciseType name="Standing Cable Twist">
-						  <image imageLicenseText="Standing Cable Twist" path="Standing Cable Twist.gif"/>
-							  <info> test test test test</info>
+			 	<ExerciseType name="standing_cable_twist">
+			 		<image imageLicenseText="standing_cable_twist" path="standing_cable_twist.gif"/>
+						  	<info> Primary muscle group(s):
+						  		Obliques
+						  		
+						  		Using a cable machine, set the pulley to chest height. Stand side on to the cable machine and hold the handle with both hands. Keeping your arms straight and abs braced pull the cable up and across your body rotating at the same time. Return to the starting position.</info>
 						  </ExerciseType>
-					  <ExerciseType name="Seated V Sits">
-						   <image imageLicenseText="Seated V Sits" path="Seated V Sits.gif"/>
-						  <info> test test test test</info>
-					  </ExerciseType>
-					  <ExerciseType name="Weighted Lying Twist">
-							<image imageLicenseText="Weighted Lying Twist" path="Weighted Lying Twist.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="weighted_lying_twist">
+			 		<image imageLicenseText="weighted_lying_twist" path="weighted_lying_twist.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Obliques
+					  		
+					  		Place a Swiss Ball in between your feet. Lying on your back with your arms out to your side, raise your legs keeping your knees fully extended. Brace your core and role to one side lowering the Swiss Ball as close to the floor as possible. Return to the starting position and roll to the other side. Keep your shoulders flat on the floor.</info>
 					  </ExerciseType>
 			 </Muscle_part>
 	</Muscle>
 	<Muscle name="legs">
-		<image imageLicenseText="legs"       path="legs.jpg"/>
+		<image_Muscle imageLicenseText="legs"       path="legs.jpg"/>
 			<Muscle_part name="lower">
-				   <image imageLicenseText="lower" path="2.jpg"/>
-					  <ExerciseType name="Bent Over Rear Delt Raise">
-						  <image imageLicenseText="Bent Over Rear Delt Raise" path="Bent Over Rear Delt Raise.gif"/>
-						  <info> test test test test</info>
+				   <imagep imageLicenseText="lower" path="moli.jpg"/>
+				<ExerciseType name="glute_machine_kickbacks">
+					<image imageLicenseText="glute_machine_kickbacks" path="glute_machine_kickbacks.gif"/>
+					<info> Glute Machine Kick Backs
+						Primary muscle group(s)
+						Hamstrings and Glutes
+						
+						Lying face down on the bench place one foot on the foot plate and the other knee on the padded leg rest. Push your foot backwards and up so that your hip is fully extended. Squeeze your glutes as your are pushing your foot up towards the ceiling. Return to the start position.
+					</info>
 					  </ExerciseType>
-					  <ExerciseType name="Hamstring Curl">
-						   <image imageLicenseText="Machine Rear Delt Fly" path="Machine Rear Delt Fly.gif"/>
-						  <info> test test test test</info>
+				<ExerciseType name="hamstring_curl">
+					<image imageLicenseText="hamstring_curl" path="hamstring_curl.gif"/>
+					  	<info> Hamstring Curl
+					  		Primary muscle group(s)
+					  		Hamstrings
+					  		
+					  		Lie face down on a leg curl machine and place your ankles under the ankle pad. The pad should rest just above the back of your ankle. Remaining flat on the bench, with no arching of your spine, curl your legs up in a smooth arcing motion by bending your knees until your hamstrings are fully contracted. Slowly lower your legs to the starting position in a smooth arcing motion.
+					  		
+					  	</info>
 					  </ExerciseType>
-					  <ExerciseType name="Rear Delt Pull">
-							<image imageLicenseText="Rear Delt Pull" path="Rear Delt Pull.gif"/>
-						  <info> test test test test</info>
+				<ExerciseType name="primary_muscle_groups">
+					<image imageLicenseText="primary_muscle_groups" path="primary_muscle_groups.gif"/>
+					<info> Primary muscle group(s)
+						Glutes, Hamstrings , Lower Back
+						
+						Complete this ideally with a lat pull down machine. Set up a bench in front of the lat pull down seat. Place your legs under the leg guard on the lat pull down machine and kneel on the lat pull down seat. In an upright position, lower your body down to the bench in front of you using your hands to stop your body just above the bench. Keep your body straight from your knees to your shoulders. Use your hands to push off the bench and return to the starting position.
+						
+						This is a difficult exercise so you may benefit from attaching a resistance band around your chest and attaching it to the carabiner of the lat pull down machine. Make sure you select the heaviest weight on the lat pull down stack. The band should go around your chest and under your arm pits.
+					</info>
 					  </ExerciseType>
-						  <ExerciseType name="Seated Bent Over Rear Delt Raise">
-						  <image imageLicenseText="Seated Bent Over Rear Delt Raise" path="Seated Bent Over Rear Delt Raise.gif"/>
-							  <info> test test test test</info>
+				<ExerciseType name="standing_cable_kickbacks">
+					
+					<image imageLicenseText="standing_cable_kickbacks" path="standing_cable_kickbacks.gif"/>
+					<info> Standing Cable Kickbacks
+						Primary muscle group(s)
+						Glutes , Hamstrings
+						
+						Attach a cable attachment to each ankle. Attach one ankle attachment to one cable pulley. Hold onto the cable bar with both hands. You can lean forward to achieve more range of movement. Keeping your leg straight, kick your leg backwards so that you feel the squeeze in your glutes and hamstrings. Return to the starting position.
+					</info>
 						  </ExerciseType>
-			 </Muscle_part>
+				<ExerciseType name="swiss_ball_leg_curl_hip_raise_to_hamstring_curls">
+					<image imageLicenseText="swiss_ball_leg_curl_hip_raise_to_hamstring_curls" path="swiss_ball_leg_curl_hip_raise_to_hamstring_curls.gif"/>
+					<info> Swiss Ball Leg Curl  Hip Raise to Hamstring Curl
+						Primary muscle group(s)
+						Hamstrings
+						
+						Lie with your back flat on an exercise mat and your feet resting on top of a Swiss ball with your knees bent. Keep your shoulders flat on the ground and press down with your feet to raise your hips off the floor. Push the ball away by straightening your knees until your legs are fully extended and your ankles are on top of the ball. Pull the ball back to the starting position by bending your knees. You should keep your body straight from your shoulders to your knees the entire time. Your hips shouldn’t bend.</info>
+				</ExerciseType>
+			</Muscle_part>
 		   <Muscle_part name="upper">
-				   <image imageLicenseText="upper" path="1.jpg"/>
-					  <ExerciseType name="Barbell Box Squat">
-						  <image imageLicenseText="Barbell Box Squat" path="Barbell Box Squat.gif"/>
-						  <info> test test test test</info>
+		   	<imagep imageLicenseText="legupper" path="fo9.jpg"/>
+		   	<ExerciseType name="barbell_box_squat">
+		   		<image imageLicenseText="barbell_box_squat" path="barbell_box_squat.gif"/>
+					  	<info>Barbell Box Squat
+					  		Primary muscle group(s)
+					  		Glutes, Hamstrings , Quadriceps
+					  		
+					  		Place a bench or box behind you just below knee height. Set up the barbell on the squat rack so that it is at the same height as your upper chest. Position your body under the bar, with knees bent so that the bar is resting on the back of your shoulders. Lift the bar off the rack and walk backwards to the box or bench. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. Slowly descend by driving your hips back first and bending your knees. Keep your chest up and back straight. Touch the box with your glutes then rise back to the starting position.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Barbell Sumo Deadlift">
-						   <image imageLicenseText="Barbell Sumo Deadlift" path="Barbell Sumo Deadlift.gif"/>
-						  <info> test test test test</info>
+		   	<ExerciseType name="barbell_sumo_deadlift">
+		   		<image imageLicenseText="barbell_sumo_deadlift" path="barbell_sumo_deadlift.gif"/>
+					  	<info>  Barbell sumo Deadlift
+					  		Primary muscle group(s):
+					  		Quadriceps, Hamstrings ,Glutes
+					  		
+					  		Stand with your feet shoulder width apart while holding a dumbbell to your chest. You should hold the dumbbell by one end between your hands. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. This is the start position. Squat down keeping your back straight and pushing your hips back. Continue down until your thighs are below parallel to the floor. Hold for a count of one. Return to the start position. Repeat.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Body weight Squat">
-							<image imageLicenseText="Body weight Squat" path="Body weight Squat.gif"/>
-						  <info> test test test test</info>
+		   	<ExerciseType name="body_weight_squats">
+		   		<image imageLicenseText="body_weight_squats" path="body_weight_squats.gif"/>
+					  	<info> Body weight Squat
+					  		Primary muscle group(s):
+					  		Quadriceps, Hamstrings , Glutes
+					  		
+					  		Stand up straight with a tight core and flat back. Fold your arms in front. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. Slowly descend by driving your hips back first and bending your knees. Keep your chest up and back straight. Once your thigh muscle is below parallel then rise back to the starting position.
+					  		
+					  	</info>
 					  </ExerciseType>
-						  <ExerciseType name="Box Squats">
-						  <image imageLicenseText="Box Squats" path="Box Squats.gif"/>
-							  <info> test test test test</info>
+		   	<ExerciseType name="box_squats">
+		   		<image imageLicenseText="box_squats" path="box_squats.gif"/>
+						  	<info> Box Squats
+						  		Primary muscle group(s):
+						  		Glutes, Hamstrings , Quadriceps
+						  		
+						  		Place a bench or box behind you just below knee height. Stand up straight with a tight core and flat back. Fold your arms in front. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. Slowly descend by driving your hips back first and bending your knees. Keep your chest up and back straight. Touch the box with your glutes then slowly rise back to the starting position. Make sure the bench or box is low enough for your thighs to break parallel.
+						  		
+						  	</info>
 						  </ExerciseType>
-					  <ExerciseType name="Dumbbell Box Squats">
-						   <image imageLicenseText="Dumbbell Box Squats" path="Dumbbell Box Squats.gif"/>
-						  <info> test test test test</info>
+		   	<ExerciseType name="dumbbell_box">
+		   		<image imageLicenseText="dumbbell_box" path="dumbbell_box.gif"/>
+					  	<info>Dumbbell Box Squats
+					  		Primary muscle group(s):
+					  		Glutes, Hamstrings,Quadriceps
+					  		
+					  		Place a bench or box behind you just below knee height. Hold a dumbbell in each hand or one dumbbell in both hands at chest height. Stand up straight with a tight core and flat back. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. Slowly descend by driving your hips back first and bending your knees. Keep your chest up and back straight. Touch the box with your glutes then slowly rise back to the starting position. Make sure the bench or box is just below knee height.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Goblet Squat (Dumbbell Front Squat)">
-							<image imageLicenseText="Goblet Squat (Dumbbell Front Squat)" path="Goblet Squat (Dumbbell Front Squat).gif"/>
-						  <info> test test test test</info>
+		   	<ExerciseType name="goblet_squat">
+		   		<image imageLicenseText="goblet_squat" path="goblet_squat.gif"/>
+					  	<info> Goblet Squat (Dumbbell Front Squat)
+					  		Primary muscle group(s):
+					  		Quadriceps, Hamstrings , Glutes
+					  		
+					  		Stand with your feet shoulder width apart while holding a dumbbell to your chest. You should hold the dumbbell by one end between your hands. Your feet can be shoulder-width and toes and pointing forward or feet wider and toes pointing outwards. This is the start position. Squat down keeping your back straight and pushing your hips back. Continue down until your thighs are below parallel to the floor. Hold for a count of one. Return to the start position. Repeat.</info>
 					  </ExerciseType>
 			 </Muscle_part>
 	</Muscle>
 	<Muscle name="Shoulders">
-		   <image imageLicenseText="Shoulders"  path="Shoulders.png"/>
-			 <Muscle_part name="Front delts">
-				   <image imageLicenseText="Front delts" path="big-front-delts-and-shoulders-yt.jpg"/>
-					  <ExerciseType name="Barbell Front Raise">
-						  <image imageLicenseText="Barbell Front Raise" path="Barbell Front Raise.gif"/>
-						  <info> test test test test</info>
+		<image_Muscle imageLicenseText="shoulders"  path="full_sho.png"/>
+			 <Muscle_part name="front_delts">
+			 	<imagep imageLicenseText="front" path="big_front.jpg"/>
+			 	<ExerciseType name="barbell_front_raise">
+			 		<image imageLicenseText="barbell_front_raise" path="barbell_front_raise.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Front Delts
+					  		
+					  		Place your hands in an overhand grip on the barbell. Stand up with a tight core and flat back. Keeping a slight bend in the elbows, raise the bar up and in front of you to chest height. Slowly lower the barbell back to your hip.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Close-Grip Barbell Bench Press">
-						   <image imageLicenseText="Close-Grip Barbell Bench Press" path="Close-Grip Barbell Bench Press.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="close_grip_barbell_bench_press">
+			 		<image imageLicenseText="close_grip_barbell_bench_press" path="close_grip_barbell_bench_press.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Front Delt ,Triceps
+					  		
+					  		Lie on a flat bench with your feet flat on the floor. Make sure your lower back is arched off the bench and your feet behind your knees on the floor. Grip the barbell with an overhand grip shoulder width apart. Unrack the bar and position the bar so that it is straight over your chest. Point your elbows straight ahead. Lower the bar by bending at your elbows and lower the bar so that the bar is touching the bottom of your chest. Push the bar back up to the starting position.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Close-Grip Dumbbell Bench Press">
-							<image imageLicenseText="Close-Grip Dumbbell Bench Press" path="Close-Grip Dumbbell Bench Press.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="close_grip_dumbbell_bench_press">
+			 		<image imageLicenseText="close_grip_dumbbell_bench_press" path="close_grip_dumbbell_bench_press.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Front Delt , Triceps
+					  		
+					  		Lie on a flat bench with your feet flat on the floor. Make sure your lower back is arched off the bench and your feet behind your knees on the floor. Grip the dumbbell with an inverted grip (palms facing each other) holding the dumbbells over your chest. Point your elbows straight ahead. Lower the dumbbells by bending at your elbows down to the bottom of your chest so that your elbow joint angle is 90 degrees. Push the dumbbells back to the starting position.</info>
 					  </ExerciseType>
-						  <ExerciseType name="Dumbbell Seated Shoulder Press">
-						  <image imageLicenseText="Dumbbell Seated Shoulder Press" path="Dumbbell Seated Shoulder Press.gif"/>
-							  <info> test test test test</info>
+			 	<ExerciseType name="dumbbell_seated_shoulder_press">
+			 		<image imageLicenseText="dumbbell_seated_shoulder_press" path="dumbbell_seated_shoulder_press.gif"/>
+						  	<info> Primary muscle group(s):
+						  		Shoulders,Triceps
+						  		
+						  		Warning: Only complete this exercise if you have good overhead range of movement. If you have poor shoulder flexibility it maybe best not to do this exercise.
+						  		
+						  		Sit on a bench that has a back support, holding a dumbbell in each hand with an overhand grip.
+						  		Raise the dumbbells to shoulder level, your palms should be facing away from you. Push the dumbbells up and over your head by extending your arms until the dumbbells touch at the top of the movement. Slowly return to the start position inhaling as you do so. Only complete this exercise if you have good overhead shoulder flexibility.</info>
 						  </ExerciseType>
-					  <ExerciseType name="Incline Close-Grip Barbell Bench Press">
-						   <image imageLicenseText="Incline Close-Grip Barbell Bench Press" path="Incline Close-Grip Barbell Bench Press.gif"/>
-						  <info> test test test test</info>
+			 	<ExerciseType name="incline_close_grip_arbell _bench_press">
+			 		<image imageLicenseText="incline_close_grip_arbell _bench_press" path="incline_close_grip_arbell _bench_press.gif"/>
+					  	<info> Primary muscle group(s):
+					  		Front Delt , Triceps
+					  		
+					  		Lie on an incline bench with your feet flat on the floor. Make sure your lower back is arched off the bench and your feet behind your knees on the floor. Grip the barbell with an overhand grip shoulder width apart. Unrack the bar and position the bar so that it is straight over your chest. Point your elbows straight ahead. Lower the bar by bending at your elbows and lower the bar so that the bar is touching the bottom of your chest. Push the bar back up to the starting position.</info>
 					  </ExerciseType>
 			 </Muscle_part>
-		 <Muscle_part name="Rear delts">
-				   <image imageLicenseText="Rear delts" path="maxresdefault.jpg"/>
-					  <ExerciseType name="Close-Grip Barbell Bench Press">
-						   <image imageLicenseText="Close-Grip Barbell Bench Press" path="Close-Grip Barbell Bench Press.gif"/>
-						  <info> test test test test</info>
+		 <Muscle_part name="rear_delts">
+				   <imagep imageLicenseText="rear_delts" path="maxresdefault.jpg"/>
+		 	<ExerciseType name="bent_over_rear_delt_raises">
+		 		<image imageLicenseText="bent_over_rear_delt_raises" path="bent_over_rear_delt_raises.gif"/>
+		 		<info> Primary muscle group(s):
+		 			Rear Delts and Upper Back
+		 			
+		 			For this exercise you will need two cable machines and two handles. Position the pulleys at the lowest level. Hold the let cable in your right hand and right cable in your left hand. Bend over with a straight back and retract your arms back and out so that your arms are pointing out to your sides. Lower your arms back to the starting position.
+		 			
+		 			Note: You will not require a large amount of weight for this exercise to be effective.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Seated Bent Over Rear Delt Raise">
-							<image imageLicenseText="Seated Bent Over Rear Delt Raise" path="Seated Bent Over Rear Delt Raise.gif"/>
-						  <info> test test test test</info>
+		 	<ExerciseType name="rear_delt_pull">
+		 		<image imageLicenseText="rear_delt_pull" path="rear_delt_pull.gif"/>
+		 		<info>Primary muscle group(s):
+		 			Rear Delts, Biceps, Traps
+		 			
+		 			Stand tall facing a pulley that has been adjusted to higher than head-height. Attach a rope or dual handles to the pulley and grab hold of each end with your palms facing your head. Engage your abs and pull the weight towards your face. Separate your hands as you pull. Try to keep your arms parallel to the floor.</info>
 					  </ExerciseType>
-						  <ExerciseType name="Machine Rear Delt Fly">
-						  <image imageLicenseText="Machine Rear Delt Fly" path="Machine Rear Delt Fly.gif"/>
-							  <info> test test test test</info>
+		 	<ExerciseType name="machine_rear_delt_fly">
+		 		<image imageLicenseText="machine_rear_delt_fly" path="machine_rear_delt_fly"/>
+						  	<info>Primary muscle group(s):
+						  		Rear Delts , Upper Back
+						  		
+						  		Sit in the rear delt fly machine. Make sure your feet on firmly on the floor. Lean into the chest pad. Hold the lever handle and retract your arms and shoulder back so that you are squeezing your shoulder blades together. Return to the starting position.</info>
 						  </ExerciseType>
-					  <ExerciseType name="Bent Over Rear Delt Raise">
-						   <image imageLicenseText="Bent Over Rear Delt Raise" path="Bent Over Rear Delt Raise.gif"/>
-						  <info> test test test test</info>
+		 	<ExerciseType name="seated_bent_over_rear_delt_raise">
+		 		<image imageLicenseText="seated_bent_over_rear_delt_raise" path="seated_bent_over_rear_delt_raise"/>
+					  	<info> Primary muscle group(s):
+					  		Rear Delts , Upper Back
+					  		
+					  		Sit on a bench, holding a dumbbell in each hand. Your hands should be at your sides. Bend forward at the hips while maintaining a tight core and flat back. Keep your gaze at the ground. Be sure to maintain this position along with a slight bend in your elbows at all times. Extend your arms out to the side so that your arms should be parallel with the floor. Pause, slowly lower the weight back to the starting position. Repeat.</info>
 					  </ExerciseType>
 			 </Muscle_part>
-				 <Muscle_part name="Side delts">
-				   <image imageLicenseText="Side delts" path="s"/>
-					  <ExerciseType name="Cable Lateral Raise">
-						  <image imageLicenseText="Cable Lateral Raise" path="Cable Lateral Raise.gif"/>
-						  <info> test test test test</info>
+				 <Muscle_part name="sidedelts">
+				   <image imageLicenseText="sidedelts" path="sideshould"/>
+				 	<ExerciseType name="cable_lateral_raise">
+				 		<image imageLicenseText="cable_lateral_raise" path="cable_lateral_raise"/>
+					  	<info> Primary muscle group(s):
+					  		Medial Delts
+					  		
+					  		For this exercise you will need one cable machine. Adjust the pulley to the lowest setting. Stand side on to the cable machine and hold the cable with your opposite hand. With a straight arm pull the cable diagonally across your body and up so that your arm is straight out to the side at shoulder height. Return to the starting position.</info>
 					  </ExerciseType>
-					  <ExerciseType name="Dumbbell Lateral Raise">
-						   <image imageLicenseText="Dumbbell Lateral Raise" path="Dumbbell Lateral Raise.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="dumbbell_lateral_raise">
+				 		<image imageLicenseText="dumbbell_lateral_raise" path="dumbbell_lateral_raise"/>
+					  	<info>Primary muscle group(s):
+					  		Medial Delts
+					  		
+					  		Stand with your back straight, feet shoulder width apart, while holding a dumbbell in each hand with your palms facing inwards. Keep your elbows close to your sides. Keeping your arms fully extended and your torso
+					  		stationary, lift the dumbbells out to your sides and up until they are at shoulder level. Return to the start position. Don’t swing the weights up with your body or let them fall back to your side.</info>
 					  </ExerciseType>
-					  <ExerciseType name="EZ Bar Upright Row">
-							<image imageLicenseText="EZ Bar Upright Row" path="EZ Bar Upright Row.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="ez_bar_upright_rows">
+				 		<image imageLicenseText="ez_bar_upright_rows" path="ez_bar_upright_rows"/>
+					  	<info> Primary muscle group(s):
+					  		Medial Delts, Biceps, Traps
+					  		
+					  		Grip the bar with an overhand grip, with your hands shoulder width apart and arms fully extended. Stand with your feet shoulder width apart. Keep your shoulders back. Raise the bar straight up in one smooth movement, until it is at your upper chest level. Lower the bar back to the starting position. Don’t allow the bar to drop down.</info>
 					  </ExerciseType>
-						  <ExerciseType name="Machine Shoulder Press">
-						  <image imageLicenseText="Machine Shoulder Press.gif"/>
-							  <info> test test test test</info>
+				 	<ExerciseType name="machine_shoulder_press">
+				 		<image imageLicenseText="machine_shoulder_press" path="machine_shoulder_press.gif"/>
+						  	<info> Primary muscle group(s):
+						  		Shoulders ,Triceps
+						  		
+						  		Sit on the machine shoulder press seat. Make sure your feet are firmly touching the ground and the handles are at shoulder height. Hold the handles and press above your head. Return to the starting position.</info>
 						  </ExerciseType>
-					  <ExerciseType name="Standing Barbell Shoulder Press">
-						   <image imageLicenseText="Standing Barbell Shoulder Press" path="Standing Barbell Shoulder Press.gif"/>
-						  <info> test test test test</info>
+				 	<ExerciseType name="standing_barbell_shoulder_press">
+				 		<image imageLicenseText="standing_barbell_shoulder_press" path="standing_barbell_shoulder_press"/>
+					  	<info> Primary muscle group(s):
+					  		Shoulders, Triceps
+					  		
+					  		Warning: Do not complete this exercise if you have poor shoulder mobility or are weak overhead.
+					  		
+					  		Grip the barbell with an overhand grip. You can use either a shoulder width grip which will work more of the anterior delts and tricep or a wider grip which will involve more of the medial delt and tricep. Lift the bar off the rack to around shoulder level and then push the the bar over your head. You want to keep the bar as close to your body and fully lock your shoulders and elbows out over your head. Return the bar to the starting position.</info>
 					  </ExerciseType>
 			 </Muscle_part>
 	</Muscle>

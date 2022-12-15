@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
  <gym_pro>
-	<Muscle name="back">
+	<Muscle name="back"
+	>
 		<image_Muscle imageLicenseText="back"       path="back.jpg" />
 			 <Muscle_part name="middle">
 				   <imagep imageLicenseText="midback" path="midback.jpg"/>

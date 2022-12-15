@@ -18,10 +18,10 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
-    <string name="message">Message</string>
-    <string name="send">Send</string>
-    <string name="email">Email</string>
-    <string name="name">Name</string>
-    <string name="mobno">Mobile No.</string>
+    <string name="Min">Minute</string>
+    <string name="send">Set alarm</string>
+    <string name="Note">Make a Note</string>
+    <string name="name">Custom Name</string>
+    <string name="Hour">hour</string>
     <string name="reg_no">Reg</string>
 </resources>

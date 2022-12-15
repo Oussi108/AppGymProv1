@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".SetAlarmActivity">
+    tools:context=".SetAlarmActivity"
+    android:background="@drawable/bgsettimer">
 
 
     <LinearLayout
@@ -14,19 +15,22 @@
         android:layout_gravity="center"
         android:focusableInTouchMode="false"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="15dp"
+        >
 
         <com.google.android.material.textfield.TextInputLayout
 
             android:id="@+id/txtInputName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
 
             <EditText
                 android:id="@+id/custom_message"
                 style="@style/modifiedEditText"
                 android:hint="@string/name"
-                android:singleLine="true" />
+                android:singleLine="true"
+                />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -34,13 +38,14 @@
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/txtInputmessage"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
 
             <EditText
                 android:id="@+id/txtMessage"
                 style="@style/modifiedEditText"
                 android:ems="10"
-                android:hint="@string/email"
+                android:hint="@string/Note"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -50,12 +55,13 @@
 
             android:id="@+id/txtInputhour"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
 
             <EditText
                 android:id="@+id/txthour"
                 style="@style/modifiedEditText"
-                android:hint="@string/mobno"
+                android:hint="@string/Hour"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -64,14 +70,14 @@
 
             android:id="@+id/txtInputmin"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
 
             <EditText
                 android:id="@+id/txtmin"
                 style="@style/modifiedEditText"
-                android:hint="@string/message"
-                android:inputType="number"
-                />
+                android:hint="@string/Min"
+                android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -83,6 +89,7 @@
             android:layout_gravity="right"
             android:background="@drawable/centre_button"
             android:text="@string/send"
-            android:textColor="@color/whiteTextColor" />
+            android:textColor="@color/setAlarmButton"
+            android:layout_margin="15dp"/>
     </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

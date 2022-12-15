@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
-    <item android:title="Body"
+    <item android:title="Body Muscle"
         android:icon="@drawable/body_nav"
         android:id="@+id/body_nav"/>
-    <item android:title="Machines"
+    <item android:title="Set time"
         android:id="@+id/machine_nav"
-        android:icon="@drawable/machines_nav"/>
-    <item android:title="Tracker"
+        android:icon="@drawable/set_alarm_nav"/>
+    <item android:title="Train"
         android:id="@+id/tracker_nav"
-        android:icon="@drawable/tracker"
+        android:icon="@drawable/make_list_nav"
         />
 </menu>

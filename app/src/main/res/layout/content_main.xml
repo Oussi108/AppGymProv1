@@ -41,7 +41,7 @@
                 android:id="@+id/txtMessage"
                 style="@style/modifiedEditText"
                 android:ems="10"
-                android:hint="@string/email"
+                android:hint="@string/Note"
                 android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -56,7 +56,7 @@
             <EditText
                 android:id="@+id/txthour"
                 style="@style/modifiedEditText"
-                android:hint="@string/mobno"
+                android:hint="@string/Hour"
                 android:inputType="number" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,7 +70,7 @@
             <EditText
                 android:id="@+id/txtmin"
                 style="@style/modifiedEditText"
-                android:hint="@string/message"
+                android:hint="@string/Min"
                 android:inputType="number"
                 />
 
@@ -84,7 +84,7 @@
             android:layout_gravity="right"
             android:background="@drawable/centre_button"
             android:text="@string/send"
-            android:textColor="@color/whiteTextColor" />
+            android:textColor="@color/setAlarmButton" />
 
 
 

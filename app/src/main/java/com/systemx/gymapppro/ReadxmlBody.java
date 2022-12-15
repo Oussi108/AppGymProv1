@@ -1,6 +1,8 @@
 package com.systemx.gymapppro;
 
 import android.content.Context;
+import android.view.View;
+import android.widget.Toast;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -22,15 +24,17 @@ public class ReadxmlBody {
 
 ////////////////
 
-    public  void XmlReader( Context c)  {
+    public void XmlReader(Context c)  {
         XmlPullParserFactory parseft ;
-
 
         try {
             parseft = XmlPullParserFactory.newInstance();
             XmlPullParser parse = parseft.newPullParser();
             InputStream in = c.getApplicationContext().getAssets().open("Training.xml");
+            if(in == null){
+               // Toast.makeText(v.getContext(),"null",Toast.LENGTH_LONG).show();
 
+            }
             parse.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES,false);
             parse.setInput(in,null);
             db =  ParseXml(parse);
@@ -75,9 +79,9 @@ public class ReadxmlBody {
 
 
                         }else if(mus != null){
-                            if("image".equals(elmName)){
+                            if("image_Muscle".equals(elmName)){
                                 mus.imagePath = p.getAttributeValue(null,"path");
-                                p.next();
+
                             }else if("Muscle_part".equals(elmName)){
                                 mp = new Muscle_part();
                                 mus.Muscle_parts.add(mp);
@@ -85,7 +89,7 @@ public class ReadxmlBody {
 
 
                             }else if(mp != null){
-                                if ("image".equals(elmName)){
+                                if ("imagep".equals(elmName)){
                                     mp.imagePath = p.getAttributeValue(null,"path");
 
 

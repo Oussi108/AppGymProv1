@@ -4,6 +4,7 @@ package com.systemx.gymapppro;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -13,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -121,6 +123,14 @@ public class BodyFragment extends Fragment {
         tv.setText(String.valueOf(db.get(0).Muscle_parts.get(0).Exercises.get(0).imagePath));
         BodyAdapter ba = new BodyAdapter(view.getContext(),d);
         LS.setAdapter(ba);
+        LS.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent in = new Intent(getActivity(),Muscle_part_activity.class);
+                in.putExtra("ItemPostion",String.valueOf(i));
+                startActivity(in);
+            }
+        });
 
 
 

@@ -120,7 +120,7 @@ public class BodyFragment extends Fragment {
         tv = view.findViewById(R.id.testet);
 
 
-        tv.setText(String.valueOf(db.get(0).Muscle_parts.get(0).Exercises.get(0).imagePath));
+        tv.setText("Body Muscle");
         BodyAdapter ba = new BodyAdapter(view.getContext(),d);
         LS.setAdapter(ba);
         LS.setOnItemClickListener(new AdapterView.OnItemClickListener() {

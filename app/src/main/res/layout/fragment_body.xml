@@ -16,7 +16,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Body here"
-        android:textSize="34sp" />
+        android:textSize="34sp"
+        android:layout_margin="12dp"/>
         <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

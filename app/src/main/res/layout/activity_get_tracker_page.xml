@@ -8,130 +8,138 @@
     android:orientation="vertical"
     >
 
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="54dp"
-        android:text="TextView" />
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:gravity="center_horizontal">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="Custom Name:"
-            android:textSize="25dp"
             android:gravity="center"
             android:paddingRight="15dp"
-            />
+            android:text="Custom Name:"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/CustomName"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:ems="10"
-            android:textSize="25dp"
+            android:hint="Name"
             android:inputType="textPersonName"
-            android:text="Name" />
+            android:textSize="25dp"
 
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="Exersice:"
-            android:textSize="30dp"
-            android:gravity="center"
-            android:paddingRight="15dp"
             />
 
+    </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:text="Exersice:"
+            android:textSize="30dp"
+            android:textStyle="bold|italic" />
 
         <Spinner
             android:id="@+id/spinner_ExerciseName"
-            android:layout_width="match_parent"
+            android:layout_width="203dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            />
+
+            android:ems="10" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="159dp"
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="178dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:paddingRight="15dp"
             android:text="Note:"
-            android:textSize="25dp" />
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/Note"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:gravity="start|top"
+            android:hint="write your note"
             android:inputType="textMultiLine" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="138dp"
+        android:gravity="center_horizontal"
         android:orientation="horizontal">
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="178dp"
             android:layout_height="match_parent"
-            android:text="Number of sets:"
-            android:textSize="25dp"
             android:gravity="center"
             android:paddingRight="15dp"
-            />
+            android:text="sets number :"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
 
         <EditText
             android:id="@+id/Numbersets"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="157dp"
+            android:layout_height="61dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="numberSigned" />
+            android:hint="putnumber"
+            android:inputType="numberSigned"
+            android:minHeight="48dp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-       android:gravity="bottom|right"
-        android:orientation="horizontal">
+        android:layout_width="396dp"
+        android:layout_height="158dp"
+        android:gravity="center_horizontal">
+
 
         <Button
             android:id="@+id/CancelTrain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@android:style/Widget.Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
             android:text="Cancel"
-            android:textSize="16dp"
-            android:layout_marginRight="30dp"
-            />
+            android:textSize="16dp" />
 
         <Button
             android:id="@+id/AddTrain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@android:style/Widget.Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
             android:text="Add"
-            android:textSize="16dp"
-            android:layout_marginRight="10dp"/>
-
-
+            android:textSize="16dp" />
     </LinearLayout>
 
+
 </LinearLayout>
+

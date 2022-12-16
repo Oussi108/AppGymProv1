@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:text="Mission To do Solder"
             android:textSize="25dp"
-            android:layout_margin="5dp"
+            android:layout_margin="10dp"
+
             />
 
         <ListView

@@ -8,9 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="backgroundfragment">#525252</color>
-    <color name="backgroundfragment1">#414141</color>
-    <color name="backgroundfragment2">#313131</color>
+    <color name="backgroundfragment">#212324</color>
+    <color name="backgroundfragment1">#212324</color>
+    <color name="backgroundfragment2">#212324</color>
     <color name="textcolorinitems" >#FF000000</color>
     <color name="menu_nave">#EC625F</color>
     <color name="colorPrimary">#EFFFFD</color>

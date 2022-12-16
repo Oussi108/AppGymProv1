@@ -11,8 +11,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="machines here"
-        android:textSize="34sp"  />
+        android:text="Set Task Alarm"
+        android:textSize="34sp"
+        android:layout_marginLeft="25dp"/>
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

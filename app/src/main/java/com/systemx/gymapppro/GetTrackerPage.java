@@ -39,7 +39,7 @@ public class GetTrackerPage extends AppCompatActivity {
         for (Muscle m:rd.db) {
             for (Muscle_part d:m.Muscle_parts) {
                 for (ExerciseType e:d.Exercises) {
-                    musc.add(e.Name);
+                    musc.add(e.Name.replace("_"," "));
 
                 }
 
